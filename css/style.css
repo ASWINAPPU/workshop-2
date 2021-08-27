@@ -99,7 +99,7 @@ body {
 }
 
 .box3 {
-  background-image: url("/assets/testimonials-bg-1.png");
+  background-image: url("../assets/testimonials-bg-1.png");
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
@@ -163,6 +163,10 @@ body {
 
 .boxcontainer__3--content {
   width: 70%;
+}
+
+.orange {
+  color: #ff8c00;
 }
 
 input {
