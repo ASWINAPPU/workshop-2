@@ -65,8 +65,8 @@ body {
 .box2 {
   margin-top: 93px;
   background: linear-gradient(360deg, rgba(255, 255, 255, 0.0001) 0%, #FFF5F2 100%);
-  border-top-left-radius: 19%;
-  border-top-right-radius: 19%;
+  border-bottom-left-radius: 50% 40%;
+  border-bottom-right-radius: 50% 40%;
 }
 
 .box2__topcontent {
@@ -100,6 +100,8 @@ body {
 
 .box3 {
   background-image: url("/assets/testimonials-bg-1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 100vh;
   width: 100%;
 }
@@ -109,6 +111,24 @@ body {
   font-style: normal;
   font-weight: bold;
   line-height: 46px;
+}
+
+.box3__form {
+  width: 50%;
+}
+
+.box3__form--size {
+  width: 100%;
+}
+
+.box4 h2 {
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 47px;
+}
+
+.box4 .accordion-item {
+  border: none;
 }
 
 .borderlist {
@@ -143,6 +163,14 @@ body {
 
 .boxcontainer__3--content {
   width: 70%;
+}
+
+input {
+  background: transparent !important;
+  border: none;
+  color: white;
+  outline: none;
+  width: max-content;
 }
 
 .rectangle--1 {
