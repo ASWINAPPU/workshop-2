@@ -35,9 +35,17 @@ body{
     top: 148px;
         &--content{
             position: absolute;
-            height: 60px;
-            left: 12.68%;
-            right: 14.26%;
+            width: 631px;
+            height: 549px;
+            left: 124px;
+            top: 148px;
+            &inside{
+                position: absolute;
+                height: 60px;
+                left: 15.68%;
+                right: 14.26%;
+                top:46%;
+            }
 
         }
     }
@@ -74,11 +82,13 @@ body{
                     line-height: 30px;
                     letter-spacing: 0.144444px;
                     font-weight: 700;
+                    
 
                 }
-                &--color{
+                &--color:hover{
                     background: #FF6E43;
                     border-radius: 5.28px; 
+                    transition-duration: 0.6s;
                                         
                 }
                 &--flex{
@@ -115,6 +125,9 @@ body{
                 &--size{
                     width: 100%;
                 }
+            }
+            &__center{
+                transform: translate(0%, 25%);
             }
                       
         }
