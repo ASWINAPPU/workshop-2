@@ -8,6 +8,7 @@
 body{
     font-family: 'Roboto',sans-serif;
 }
+
 .banner{
     
     position: relative;
@@ -66,6 +67,7 @@ body{
     .box{
         &1{
             margin-top: 93px;
+            img{width:100%;}
         }
         &2{
             margin-top: 93px;
@@ -92,7 +94,7 @@ body{
                                         
                 }
                 &--flex{
-                    width: 29%;
+                    width: 100%;
                 }
             }
             &__finalcontent{
@@ -209,3 +211,184 @@ left: 135px;
 top: 62.47px;
 
 }
+.accordion-body{
+    color:#ff8c00;
+}
+.accordion-button{
+    padding: 9px 1.25rem;
+}
+
+// @media (max-width: 575.98px) { 
+    
+// }
+
+// // `md` applies to small devices (landscape phones, less than 768px)
+// @media (max-width: 767.98px) {
+   
+// }
+
+// // `lg` applies to medium devices (tablets, less than 992px)
+// @media (max-width: 991.98px) {  
+    
+// }
+
+// // `xl` applies to large devices (desktops, less than 1200px)
+// @media (max-width: 1199.98px) {  }
+
+// // `xxl` applies to x-large devices (large desktops, less than 1400px)
+// @media (max-width: 1399.98px) {  }
+
+
+@media (max-width: 767px)  { 
+    .container
+    {
+            &__1{
+                &--content{
+                    img{
+                        display: none;
+                    }
+                }
+            }
+            &__2{
+
+                 }
+
+    }
+.boxcontainer{
+    .row{
+        margin-top: 34px;
+    }
+    h2{
+        font-size: 40px;
+        font-style: normal;
+        font-weight: bold;
+        line-height: 46px;
+    }
+    p{
+        font-size: 15px;   
+        font-style: normal;
+        font-weight: normal;
+        line-height: 25px;
+    }
+    &__1--content{
+        width: 100%;
+        
+    }
+    &__2--content{
+        width: 100%;
+    }
+    &__3--content{
+        width: 100%;
+    }
+}
+.orange{
+    color: #ff8c00;
+}
+.box{
+    &1{
+        img{width: 75%; }
+    }
+    &2{
+        margin-top: 93px;
+        background: linear-gradient(360deg, rgba(255, 255, 255, 0.0001) 0%, #FFF5F2 100%);
+        border-bottom-left-radius: 50% 40%;
+        border-bottom-right-radius: 50% 40%;
+        &__topcontent{
+            margin: 14px 0px 9px 0;
+        }
+        &__middlecontent{
+            h2{
+                font-weight: bold;
+                font-size: 26px;
+                line-height: 30px;
+                letter-spacing: 0.144444px;
+                font-weight: 700;
+                
+
+            }
+            &--color:hover{
+                background: #FF6E43;
+                border-radius: 5.28px; 
+                transition-duration: 0.6s;
+                                    
+            }
+            &--flex{
+                width: 100%;
+            }
+        }
+        &__finalcontent{
+            li{
+                
+                list-style-image:url('/assets/list.svg');
+                                  
+            
+            }
+            ul{
+                margin-bottom: 10px;
+            }
+                         
+        }
+    }
+    &3{
+        h2{
+            font-size: 28px;
+            font-style: normal;
+            font-weight: bold;
+            line-height: 46px;
+        }
+        background-image: url('../assets/testimonials-bg-1.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        width: 100%;
+        &__form{
+            width:100%;
+            &--size{
+                width: 100%;
+            }
+        }
+        &__center{
+            transform: translate(0%, 25%);
+        }
+                  
+    }
+}}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { 
+    .boxcontainer{
+    .row{
+        margin-top: 94px;
+    }
+    h2{
+        font-size: 40px;
+        font-style: normal;
+        font-weight: bold;
+        line-height: 46px;
+    }
+    p{
+        font-size: 15px;   
+        font-style: normal;
+        font-weight: normal;
+        line-height: 25px;
+    }
+    &__1--content{
+        width: 90%;
+        
+    }
+    &__2--content{
+        width: 100%;
+    }
+    &__3--content{
+        width: 97%;
+    }
+} }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { }
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { }
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) { }
