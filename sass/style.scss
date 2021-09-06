@@ -276,7 +276,7 @@ top: 62.47px;
                 }
                 &--xs{
                     text-align: center;
-                    transform: translateY(30%);
+                    transform: translateY(10%);
                 }
             }
             &__2{
@@ -386,6 +386,29 @@ top: 62.47px;
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) { 
+    .container__1{
+        position: absolute;
+        left: 124px;
+        top: 148px;
+        &--xs{
+            z-index: 1;
+        }
+            &--content{
+                position: absolute;
+                width: 631px;
+                height: 549px;
+                left: 45px;
+                top: 250px;
+                &inside{
+                    position: absolute;
+                    height: 60px;
+                    left: 15.68%;
+                    right: 14.26%;
+                    top:46%;
+                }
+    
+            }
+        }
     .boxcontainer{
     .row{
         margin-top: 94px;

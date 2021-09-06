@@ -242,7 +242,7 @@ input {
   }
   .container__1--xs {
     text-align: center;
-    transform: translateY(30%);
+    transform: translateY(10%);
   }
   .boxcontainer .row {
     margin-top: 34px;
@@ -329,6 +329,28 @@ input {
 }
 
 @media (min-width: 768px) {
+  .container__1 {
+    position: absolute;
+    left: 124px;
+    top: 148px;
+  }
+  .container__1--xs {
+    z-index: 1;
+  }
+  .container__1--content {
+    position: absolute;
+    width: 631px;
+    height: 549px;
+    left: 45px;
+    top: 250px;
+  }
+  .container__1--contentinside {
+    position: absolute;
+    height: 60px;
+    left: 15.68%;
+    right: 14.26%;
+    top: 46%;
+  }
   .boxcontainer .row {
     margin-top: 94px;
   }
