@@ -356,6 +356,9 @@ input {
     left: 45px;
     top: 180px;
   }
+  .container__1--content p {
+    font-size: 23px;
+  }
   .container__1--contentinside {
     position: absolute;
     height: 60px;
@@ -400,17 +403,18 @@ input {
   }
   .container__1--content {
     position: absolute;
-    width: 631px;
     height: 549px;
     left: 124px;
     top: 148px;
   }
+  .container__1--content p {
+    font-size: 23px;
+  }
   .container__1--contentinside {
     position: absolute;
     height: 60px;
-    left: 15.68%;
-    right: 14.26%;
-    top: 46%;
+    left: 12.68%;
+    top: 39%;
   }
   .boxcontainer__1--content {
     width: 62%;

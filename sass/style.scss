@@ -408,6 +408,9 @@ top: 62.47px;
             z-index: 1;
         }
             &--content{
+                p{
+                    font-size: 23px;
+                }
                 position: absolute;
                 width: 631px;
                 height: 549px;
@@ -461,17 +464,20 @@ top: 62.47px;
             z-index: 1;
         }
             &--content{
+                p{
+                    font-size: 23px;
+                }
                 position: absolute;
-                width: 631px;
+                //width: 631px;
                 height: 549px;
                 left: 124px;
                 top: 148px;
                 &inside{
                     position: absolute;
                     height: 60px;
-                    left: 15.68%;
-                    right: 14.26%;
-                    top:46%;
+                    left: 12.68%;
+                    //right: 14.26%;
+                    top:39%;
                 }
     
             }
