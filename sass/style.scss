@@ -8,6 +8,10 @@
 body{
     font-family: 'Roboto',sans-serif;
 }
+.accordion-button:not(.collapsed){
+    color:black;
+    background-color:white;
+}
 
 .banner{
     
@@ -222,6 +226,7 @@ top: 62.47px;
 }
 .accordion-button{
     padding: 9px 1.25rem;
+    font-weight: bold;
 }
 
 // @media (max-width: 575.98px) { 
@@ -429,16 +434,16 @@ top: 62.47px;
         font-weight: normal;
         line-height: 25px;
     }
-    // &__1--content{
-    //     width: 90%;
+    &__1--content{
+        width: 90%;
         
-    // }
-    // &__2--content{
-    //     width: 100%;
-    // }
-    // &__3--content{
-    //     width: 97%;
-    // }
+    }
+    &__2--content{
+        width: 100%;
+    }
+    &__3--content{
+        width: 97%;
+    }
 } }
 
 // Large devices (desktops, 992px and up)
@@ -464,6 +469,19 @@ top: 62.47px;
                     top:46%;
                 }
     
+            }
+        }
+        .boxcontainer{
+            
+            &__1--content{
+                width: 62%;
+                
+            }
+            &__2--content{
+                width: 70%;
+            }
+            &__3--content{
+                width: 70%;
             }
         }
 }

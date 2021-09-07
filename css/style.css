@@ -9,6 +9,11 @@ body {
   font-family: 'Roboto',sans-serif;
 }
 
+.accordion-button:not(.collapsed) {
+  color: black;
+  background-color: white;
+}
+
 .banner {
   position: relative;
   background-image: url(../assets/hand.jpg);
@@ -220,6 +225,7 @@ input {
 
 .accordion-button {
   padding: 9px 1.25rem;
+  font-weight: bold;
 }
 
 @media (max-width: 767px) {
@@ -371,6 +377,15 @@ input {
     font-weight: normal;
     line-height: 25px;
   }
+  .boxcontainer__1--content {
+    width: 90%;
+  }
+  .boxcontainer__2--content {
+    width: 100%;
+  }
+  .boxcontainer__3--content {
+    width: 97%;
+  }
 }
 
 @media (min-width: 992px) {
@@ -395,6 +410,15 @@ input {
     left: 15.68%;
     right: 14.26%;
     top: 46%;
+  }
+  .boxcontainer__1--content {
+    width: 62%;
+  }
+  .boxcontainer__2--content {
+    width: 70%;
+  }
+  .boxcontainer__3--content {
+    width: 70%;
   }
 }
 /*# sourceMappingURL=style.css.map */
