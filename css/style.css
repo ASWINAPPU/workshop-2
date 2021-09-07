@@ -14,6 +14,10 @@ body {
   background-color: white;
 }
 
+.accordion-button:focus {
+  box-shadow: none;
+}
+
 .banner {
   position: relative;
   background-image: url(../assets/hand.jpg);
@@ -146,7 +150,7 @@ body {
 }
 
 .box3__center {
-  transform: translate(0%, 25%);
+  padding: 150px 0;
 }
 
 .box4 h2 {
@@ -333,9 +337,6 @@ input {
   }
   .box3__form--size {
     width: 100%;
-  }
-  .box3__center {
-    transform: translate(0%, 0%);
   }
 }
 
