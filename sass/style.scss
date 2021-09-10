@@ -16,7 +16,10 @@ body{
 .accordion-button:focus{
     box-shadow: none;
 }
-
+button:hover{
+background-color: transparent;
+color: white;
+}
 .banner{
     
     position: relative;
@@ -374,7 +377,7 @@ top: 62.47px;
         &__finalcontent{
             li{
                 
-                list-style-image:url('/assets/list.svg');
+                list-style-image:url('../assets/list.svg');
                                   
             
             }

@@ -18,6 +18,11 @@ body {
   box-shadow: none;
 }
 
+button:hover {
+  background-color: transparent;
+  color: white;
+}
+
 .banner {
   position: relative;
   background-image: url(../assets/hand.jpg);
@@ -323,7 +328,7 @@ input {
     width: 100%;
   }
   .box2__finalcontent li {
-    list-style-image: url("/assets/list.svg");
+    list-style-image: url("../assets/list.svg");
   }
   .box2__finalcontent ul {
     margin-bottom: 10px;
