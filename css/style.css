@@ -21,9 +21,8 @@ body {
 .banner {
   position: relative;
   background-image: url(../assets/hand.jpg);
-  height: 858px;
+  height: 100vh;
   width: 100%;
-  max-height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -53,7 +52,7 @@ body {
 .container__1--content {
   position: absolute;
   width: 631px;
-  height: 549px;
+  height: 70%;
   left: 124px;
   top: 148px;
 }
@@ -64,6 +63,10 @@ body {
   left: 15.68%;
   right: 14.26%;
   top: 46%;
+}
+
+.container__1--contentinside h1 {
+  font-size: 49px;
 }
 
 .container__2 {
@@ -143,11 +146,12 @@ body {
 }
 
 .box3__form {
-  width: 50%;
+  width: 535px;
 }
 
 .box3__form--size {
   width: 100%;
+  margin: 25px 0px;
 }
 
 .box3__center {
@@ -365,7 +369,7 @@ input {
     height: 60px;
     left: 15.68%;
     right: 14.26%;
-    top: 46%;
+    top: 37%;
   }
   .boxcontainer .row {
     margin-top: 94px;
@@ -404,7 +408,7 @@ input {
   }
   .container__1--content {
     position: absolute;
-    height: 549px;
+    height: 70%;
     left: 124px;
     top: 148px;
   }
