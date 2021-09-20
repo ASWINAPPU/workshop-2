@@ -63,6 +63,7 @@ li {
 
 .img-responsive {
   height: 100%;
+  width: max-content;
 }
 
 .container__1 {
@@ -77,6 +78,7 @@ li {
 .container__1--content {
   position: absolute;
   width: 631px;
+  height: 60%;
   left: 124px;
   top: calc(50% - 30%);
   height: 60%;

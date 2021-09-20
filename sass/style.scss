@@ -59,7 +59,8 @@ li{
     z-index: 0;
 }
  .img-responsive{
-     height:100%
+     height:100%;
+     width: max-content;
  }
 .container__1{
     position: absolute;
@@ -72,7 +73,7 @@ li{
         &--content{
             position: absolute;
             width: 631px;
-            // height: 70%;
+            height: 60%;
             left: 124px;
             top: calc(50% - 30%) ;
             height: 60%;
