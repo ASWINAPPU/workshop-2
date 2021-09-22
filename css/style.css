@@ -62,7 +62,7 @@ li {
 }
 
 .img-responsive {
-  height: 528px;
+  height: 491px;
 }
 
 .container__1--xs {
@@ -70,7 +70,7 @@ li {
 }
 
 .container__1--content h1 {
-  font-size: 49px;
+  font-size: 46px;
 }
 
 .container__2 {
@@ -408,7 +408,7 @@ input {
   }
   .container__1--contentinside {
     position: absolute;
-    left: 7.68%;
+    left: 7.5%;
     top: 38%;
   }
   .boxcontainer__1--content {
