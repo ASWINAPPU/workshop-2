@@ -353,9 +353,8 @@ input {
   }
   .container__1--contentinside {
     position: absolute;
-    height: 60px;
     left: 13.68%;
-    top: 47%;
+    top: 28%;
   }
   .boxcontainer .row {
     margin-top: 94px;
@@ -382,7 +381,7 @@ input {
     width: 97%;
   }
   .move {
-    left: 5%;
+    left: 8%;
     top: 10%;
   }
 }
@@ -416,17 +415,8 @@ input {
 }
 
 @media (min-width: 2100px) {
-  .container__1--contentinside h1 {
-    font-size: 91px;
-  }
-  .container__1--contentinside p {
-    font-size: 44px;
-  }
-  .container__1--contentinside button {
-    font-size: 36px;
-  }
-  .container__1--contentinside button img {
-    width: 45px;
+  .container__1--contentinside {
+    top: 21%;
   }
 }
 /*# sourceMappingURL=style.css.map */

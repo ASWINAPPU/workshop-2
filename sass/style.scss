@@ -453,9 +453,9 @@ a{
                 // top: 180px;
                 &inside{
                     position: absolute;
-                    height: 60px;
+                    
                     left: 13.68%;
-                    top: 47%;
+                    top: 28%;
                 }
     
             }
@@ -488,7 +488,7 @@ a{
     }
 } 
 .move {
-    left: 5%;
+    left: 8%;
     top: 10%;
 }
 }
@@ -546,13 +546,18 @@ a{
 // XX-Large devices (larger desktops, 1400px and up)
 @media (min-width: 2100px) { 
     .container__1--contentinside{
-        h1{font-size: 91px;}
-        p{font-size:44px;}
-        button{
-            font-size: 36px;
-            img{
-                width: 45px;
-            }
-        }
+        
+          
+           
+            top: 21%;
+        
+    //     h1{font-size: 91px;}
+    //     p{font-size:44px;}
+    //     button{
+    //         font-size: 36px;
+    //         img{
+    //             width: 45px;
+    //         }
+    //     }
     }
 }
