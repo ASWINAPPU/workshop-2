@@ -61,6 +61,10 @@ li {
   z-index: 0;
 }
 
+.img-responsive {
+  height: 528px;
+}
+
 .container__1--xs {
   z-index: 1;
 }
