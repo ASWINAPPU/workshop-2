@@ -252,8 +252,12 @@ input{
     
 }
 .move{
-    left: 8%;
-    top: 10%;
+    left: 0;
+    top: 0;
+    &--inner{
+        margin-top: 50px;
+        
+    }
 }
 // .logo{
 // position: absolute;
@@ -303,17 +307,11 @@ input{
         top: 40px;
         
         }
-       .move{
-        
-        left: 0; 
-        right: 0; 
-        margin-left: auto; 
-        margin-right: auto; 
-        
-       }
+       
     .banner{
     
         background-image: url(../assets/ss.jpg);
+        height: 586.6px;
         
         text-align: center;
 
@@ -487,10 +485,7 @@ a{
         width: 97%;
     }
 } 
-.move {
-    left: 8%;
-    top: 10%;
-}
+
 }
 
 // Large devices (desktops, 992px and up)
@@ -518,7 +513,7 @@ a{
                     position: absolute;
                    
                     left: 7.68%;
-                    top: 327px;
+                    top: 38%;
                     
                     
                 }
